@@ -1,0 +1,10 @@
+= Inventario de Servidores del Proyecto Alchemist
+include::cfg.adoc[]
+
+include::header.adoc[]
+
+== Servidores LINUX
+include::listado_linux.adoc[]
+
+== Servidores Windows
+include::listado_windows.adoc[]

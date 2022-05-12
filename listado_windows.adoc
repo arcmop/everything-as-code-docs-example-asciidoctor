@@ -1,0 +1,33 @@
+- Ambiente: Desarrollo
+
+[cols="^1,^1,^1,^1",frame=sides,options=header]
+|===
+|Hostname |Direccion IP |Sistema Operativo | ¿Provisionado?
+|phwindev01|10.10.10.101|Windows Server 2012 R2 a| image::checked.png[width=16,height=16, align='center']
+|phwindev02|10.10.10.101|Windows Server 2012 R2 a| image::checked.png[width=16,height=16, align='center']
+|phwindev03|10.10.10.101|Windows Server 2012 R2 a| image::checked.png[width=16,height=16, align='center']
+|===
+
+- Ambiente: UAT
+
+[cols="^1,^1,^1,^1",frame=ends,options=header]
+|===
+|Hostname |Direccion IP |Sistema Operativo | ¿Provisionado?
+|phwinuat01|10.10.20.201|Windows Server 2012 R2 a| image::checked.png[width=16,height=16, align='center']
+|phwinuat02|10.10.20.202|Windows Server 2012 R2 a| image::unchecked.png[width=16,height=16, align='center']
+|phwinuat03|10.10.20.203|Windows Server 2012 R2 a| image::unchecked.png[width=16,height=16, align='center']
+|phwinuat04|10.10.20.204|Windows Server 2012 R2 a| image::unchecked.png[width=16,height=16, align='center']
+|===
+
+- Ambiente: PROD
+
+[cols="^1,^1,^1,",frame=all, grid=all,options=header]
+|===
+|Hostname |Direccion IP |Sistema Operativo ^| ¿Provisionado?
+
+|phwinprd01|10.10.20.101|Windows Server 2012 R2.0 a| image::unchecked.png[width=16,height=16, align='center']
+|phwinprd02|10.10.20.102|Windows Server 2012 R2.0 a| image::unchecked.png[width=16,height=16, align='center']
+|phwinprd03|10.10.20.103|Windows Server 2012 R2.0 a| image::unchecked.png[width=16,height=16, align='center']
+|phwinprd04|10.10.20.104|Windows Server 2012 R2.0 a| image::unchecked.png[width=16,height=16, align='center']
+|phwinprd05|10.10.20.105|Windows Server 2012 R2.0 a| image::unchecked.png[width=16,height=16, align='center']
+|=== 

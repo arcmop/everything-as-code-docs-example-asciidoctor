@@ -1,0 +1,30 @@
+- Ambiente: Desarrollo
+
+[.text-center]
+[cols="^1,^1,^1,",grid=rows,options=header]
+|===
+|Hostname |Direccion IP |Sistema Operativo ^| ¿Provisionado?
+|phlnxdev01 |10.1.10.101 |Centos 7 a| image::checked.png[width=16,height=16, align='center']
+|phlnxdev04 |10.1.10.102 |Centos 7 a| image::unchecked.png[width=16,height=16, align='center']
+|phlnxdev05 |10.1.10.103 |Centos 7 a| image::unchecked.png[width=16,height=16, align='center']
+|===
+
+- Ambiente: UAT
+
+[cols="^1,^1,^1,^1",grid=cols,options=header]
+|===
+|Hostname |Direccion IP |Sistema Operativo | ¿Provisionado?
+|phlnxuat02|10.1.20.202|Centos 7 a| image::unchecked.png[width=16,height=16, align='center']
+|phlnxuat03|10.1.20.203|Centos 7 a| image::unchecked.png[width=16,height=16, align='center']
+|phlnxuat05|10.1.20.205|Centos 7 a| image::checked.png[width=16,height=16, align='center']
+|===
+
+- Ambiente: PROD
+
+[cols="^1,^1,^1,^1",grid=none,options=header]
+|===
+|Hostname |Direccion IP |Sistema Operativo | ¿Provisionado?
+|phlnxprd01|10.1.20.101|Centos 7.0 a| image::unchecked.png[width=16,height=16, align='center']
+|phlnxprd02|10.1.20.102|Centos 7.0 a| image::unchecked.png[width=16,height=16, align='center']
+|phlnxprd03|10.1.20.103|Centos 7.0 a| image::unchecked.png[width=16,height=16, align='center']
+|=== 

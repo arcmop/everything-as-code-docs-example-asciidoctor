@@ -1,0 +1,6 @@
+[.text-justify]
+El presente documento tiene por finalidad mantener el listado actualizado de los servidores asignados al _Projecto Alchemist_ de esta manera se puede versionar utilizando el pincipio de *_Everything as code_*.
+
+Incluso puede programar un script quea actualice las secciones correspondientes y haga el merge de los cambios así como añadir el tag al repositorio, manteniendo el histórico del documento.
+
+Esta alternativa es más sencilla que el versionamiento mediante software como Alfresco.

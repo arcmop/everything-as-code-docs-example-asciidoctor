@@ -1,0 +1,7 @@
+:doctype: article
+:imagesdir: images
+:nolang:
+:numbered:
+:chapter-label:
+:lang: es
+:pdf-page-size: A4
