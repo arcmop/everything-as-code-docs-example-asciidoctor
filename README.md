@@ -17,8 +17,14 @@ bash-5.1$ exit
 
 #Oneline command
 $ docker run --rm -it -v $PWD:/documents/ asciidoctor/docker-asciidoctor:1.18 asciidoctor-pdf document.adoc -D dist
+
+#Versioning example
+$ export TOOL=asciidoctor/docker-asciidoctor:1.18
+$ export FILENAME=$(echo $(date +"%Y-%m-%d".rev."$(git log -n 1 --oneline | awk '{print $1}')".pdf))
+$ docker run --rm -it -v $PWD:/documents/ asciidoctor/docker-asciidoctor:1.18 asciidoctor-pdf document.adoc -o "$FILENAME"
 ```
 
 ## Links
+- https://cmop17.wordpress.com/2022/05/12/everything-as-code-documentation-docs-as-code-asciidoc-y-asciidoctor-example/
 - https://docs.asciidoctor.org/
 - https://asciidoc.org/
